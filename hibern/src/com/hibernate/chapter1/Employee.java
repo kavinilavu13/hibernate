@@ -60,7 +60,7 @@ public class Employee {
 		this.empJoinDate = empJoinDate;
 	}
 	
-	@Temporal(TemporalType.TIME)//can change datatype is  time 
+	@Temporal(TemporalType.TIMESTAMP)//can change datatype is  time 
 	public Date getEmpLongTime() {
 		return empLongTime;
 	}
